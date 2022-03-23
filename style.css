@@ -1,0 +1,82 @@
+header {
+  background-color: #FFFFFF;
+  background-image: url(handandpaw.jpg);
+  min-height: 380px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: repeat-x;
+  height: 120px;
+  padding: 0 20px;
+}
+
+.header img {
+  float: left;
+  width: 300px;
+  height: 300px;
+  padding-top: 30px;
+}
+
+#wrapper {
+  margin: 0 auto;
+  width: 80%;
+  min-width: 960px;
+  max-width: 1200px;
+}
+
+nav {
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  width: 200px;
+  float: right;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+nav a {
+  background-color: #af7ac5;
+  border-bottom: 1px solid #ffffff;
+  text-decoration: none;
+  padding: 20px;
+  display: block;
+}
+
+nav a:link {
+  color: #fff;
+}
+
+nav a:hover {
+  background-color: #8e44ad;
+  color: #e5e7e9;
+}
+
+h2 {
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  color: #af7ac5
+}
+
+h3 {
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  color: #8e44ad
+}
+
+@media only screen and (max-width: 1024px) {
+  main {
+    margin: 0px
+  }
+
+  footer {
+    font-size: .75em;
+    font-style: italic;
+    border-top: thin solid #aeaed4;
+    padding-top: 10px;
+  }
+
+  floatleft {
+    float: left;
+  }
